@@ -33,9 +33,10 @@ def strcounter(s):
 
 strcounter('aaabca')
 
-def pal(s):
-    for x in len(s):
-        if s[x]==s[:x]:
-            return True
-        else:
-            return False
+def func(c):
+    if c==c[::-1]:
+        return True
+    else:
+        return False
+
+print(func('шалаш'))
