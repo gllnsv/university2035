@@ -32,3 +32,10 @@ def strcounter(s):
     print(syms_counter)
 
 strcounter('aaabca')
+
+def pal(s):
+    for x in len(s):
+        if s[x]==s[:x]:
+            return True
+        else:
+            return False
