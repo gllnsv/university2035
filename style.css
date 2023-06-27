@@ -18,5 +18,5 @@ h1{
     font-style: oblique;
     text-align: center;
     font-size: 24px;
-    color: green;
+    text-shadow: green 2px 3px 4px;
 }
